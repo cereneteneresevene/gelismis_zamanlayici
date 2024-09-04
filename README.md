@@ -1,1 +1,1 @@
-Burada kullanıcının birden fazla zamanlayıcı kurmasına izin veren, her zamanlayıcı için ayrı ayrı geri sayım gösteren bir uygulama geliştirin. Her bir zamanlayıcı tamamlandığında, kullanıcıya sesli bir bildirim gönderin.
+Burada kullanıcının birden fazla zamanlayıcı kurmasına izin veren, her zamanlayıcı için ayrı ayrı geri sayım gösteren bir uygulama geliştirdim. Her bir zamanlayıcı tamamlandığında, kullanıcıya sesli bir bildirim gönderiyor. Ve bu oluşturduğunuz zamanlayıcıları silebilir veya alarm sesini sadece durdurabilirsiniz. 
