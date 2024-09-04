@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamanlayıcı</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center">Gelişmiş Zamanlayıcı</h2>
+    <form id="timerForm" class="mb-4">
+        <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" id="title" placeholder="Zamanlayıcı Başlığı">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" id="days" placeholder="Gün">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" id="hours" placeholder="Saat">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" id="minutes" placeholder="Dakika">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" id="seconds" placeholder="Saniye">
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Zamanlayıcı Oluştur</button>
+            </div>
+        </div>
+    </form>
+
+    <div id="timers" class="mt-4"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
